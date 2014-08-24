@@ -1,14 +1,13 @@
 package com.example.kartcrono;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.EditText;
 
-public class MainActivity extends Activity {
+public class MainActivity extends ActionBarActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -34,10 +33,10 @@ public class MainActivity extends Activity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
-	
+
 	/** Called when the user clicks the Start button */
 	public void startChooseTrack(View view) {
 		Intent intent = new Intent(this, ChooseTrackActivity.class);
-	    startActivity(intent);
+		startActivity(intent);
 	}
 }
