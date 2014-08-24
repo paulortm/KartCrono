@@ -2,7 +2,12 @@
 <resources>
 
     <string name="app_name">KartCrono</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <!-- Main activity -->
+    <string name="button_start">Start</string>
+    
+    <!-- Choose track activity -->
+    <string name="title_activity_choose_track">Choose Track</string>
 
 </resources>
